@@ -8,6 +8,7 @@ public class chap6 {
 		Scanner input=new Scanner(System.in);
 		int x=input.nextInt();//读取输入数字
 		reverse (x);//调用方法
+		input.close();
 	}
 		
 		public static void reverse(int number) {

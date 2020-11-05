@@ -11,6 +11,7 @@ public class ex710 {
 			arr[i]=input.nextDouble();//将数字放入数组中
 		}
 		indexofsmallestelements(arr);//执行方法
+		input.close();
 		
 	}
 	
