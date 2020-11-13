@@ -11,6 +11,7 @@ public class ex614 {
 		int x=input.nextInt();//得到输入值
 		printmatrix(x);//调用方法
 		input.close();
+
 	}
 	public static void printmatrix(int num) {
 		int[][]matrix=new int[num][num];//定义一个行列长都为num的矩阵
@@ -24,7 +25,6 @@ public class ex614 {
 				System.out.print(matrix[i][j]+" ");	
 			}
 			System.out.println();		//打印矩阵
-			
 		}
 	
 		
